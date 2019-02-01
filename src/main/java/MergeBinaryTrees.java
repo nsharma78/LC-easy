@@ -40,7 +40,7 @@ public class MergeBinaryTrees {
         TreeUtils.printLevelOrder(mergeTrees(root1, root2));
     }
 
-    public static TreeUtils.Node mergeTrees(TreeUtils.Node root1, TreeUtils.Node root2){
+    public static TreeUtils.Node mergeTrees(TreeUtils.Node root1, TreeUtils.Node root2){ // O(m = minimum number of tree nodes in either tree) O(m)
         if(root1 == null) return root2;
         if(root2 == null) return root1;
 
