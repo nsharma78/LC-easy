@@ -22,7 +22,9 @@
 
 package main.java;
 
-public class Solution{
+import java.util.Arrays;
+
+public class SortedArraySquares{
 
     public static void main(String []args){
         int [] arr = {-7,-4,-1,2,5,8};
